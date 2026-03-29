@@ -138,9 +138,6 @@ Lua scripting is also in the toolkit. Games are serious learning — loops, phys
 
 ---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bielng&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="bielng" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bielng&show_icons=true&locale=en&theme=chartreuse-dark" alt="bielng" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bielng&theme=chartreuse-dark" alt="bielng" /></p>
 
