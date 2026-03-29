@@ -60,7 +60,7 @@ Lua scripting is also in the toolkit. Games are serious learning — loops, phys
 
 - 📧 Email: [dadybiel96@gmail.com](mailto:dadybiel96@gmail.com)
 - 💼 LinkedIn: *(coming soon or add yours)*
-- 🐙 GitHub: [github.com/bielng](https://github.com/bielng)
+- 🐙 GitHub: [github.com/bielng](https://github.com/Dady7220)
 
 ---
 
