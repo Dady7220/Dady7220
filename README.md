@@ -164,131 +164,50 @@ facts = [
 ```
 
 
-## Play a Game: Snake!
+
+## Play a Game: Snake! (GitHub Contributions Edition)
+
+Watch the snake eat your GitHub contributions! This animation is generated automatically using a GitHub Action.
 
 <p align="center">
-  <canvas id="gameCanvas" width="400" height="400" style="background-color:#333; border:1px solid #00FF88;"></canvas>
+  <img src="https://raw.githubusercontent.com/Dady7220/Dady7220/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 </p>
 
-<script>
-  const canvas = document.getElementById('gameCanvas');
-  const ctx = canvas.getContext('2d');
+### How to set up your own Snake Game:
 
-  const gridSize = 20;
-  let snake = [{ x: 10, y: 10 }];
-  let food = {};
-  let dx = 0;
-  let dy = 0;
-  let score = 0;
-  let changingDirection = false;
-  let gameInterval;
+1.  **Create a new workflow file**: In your profile repository (e.g., `Dady7220/Dady7220`), create a file at `.github/workflows/snake.yml`.
+2.  **Add the workflow content**: Copy the following YAML into the `snake.yml` file:
 
-  function generateFood() {
-    food = {
-      x: Math.floor(Math.random() * (canvas.width / gridSize)),
-      y: Math.floor(Math.random() * (canvas.height / gridSize))
-    };
-  }
+    ```yaml
+    name: Generate Snake
 
-  function drawRect(x, y, color) {
-    ctx.fillStyle = color;
-    ctx.fillRect(x * gridSize, y * gridSize, gridSize, gridSize);
-    ctx.strokeStyle = '#000';
-    ctx.strokeRect(x * gridSize, y * gridSize, gridSize, gridSize);
-  }
+    on:
+      schedule:
+        - cron: "0 0 * * *" # run every 24 hours
+      workflow_dispatch: # allow manual triggering
 
-  function drawSnake() {
-    snake.forEach(segment => drawRect(segment.x, segment.y, '#00FF88'));
-  }
+    jobs:
+      build: 
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - uses: Platane/snk@v3
+            with:
+              github_user_name: Dady7220 # Replace with your GitHub username
+              outputs: |\
+                dist/github-contribution-grid-snake.svg
+                dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          - uses: crazy-max/ghaction-github-pages@v2.6.0
+            with:
+              target_branch: output
+              build_dir: dist
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    ```
 
-  function drawFood() {
-    drawRect(food.x, food.y, 'red');
-  }
+3.  **Update your README.md**: Add the image tag above to your `README.md` file, making sure to replace `Dady7220` with your actual GitHub username in the `src` attribute.
+4.  **Commit and Push**: Commit these changes to your profile repository. The GitHub Action will run and generate the `github-contribution-grid-snake.svg` file in a new `output` branch. This image will then be displayed in your README.
 
-  function changeDirection(event) {
-    if (changingDirection) return;
-    changingDirection = true;
-
-    const keyPressed = event.keyCode;
-    const LEFT_KEY = 37;
-    const RIGHT_KEY = 39;
-    const UP_KEY = 38;
-    const DOWN_KEY = 40;
-
-    const goingUp = dy === -1;
-    const goingDown = dy === 1;
-    const goingRight = dx === 1;
-    const goingLeft = dx === -1;
-
-    if (keyPressed === LEFT_KEY && !goingRight) {
-      dx = -1;
-      dy = 0;
-    }
-    if (keyPressed === UP_KEY && !goingDown) {
-      dx = 0;
-      dy = -1;
-    }
-    if (keyPressed === RIGHT_KEY && !goingLeft) {
-      dx = 1;
-      dy = 0;
-    }
-    if (keyPressed === DOWN_KEY && !goingUp) {
-      dx = 0;
-      dy = 1;
-    }
-  }
-
-  function checkCollision() {
-    for (let i = 4; i < snake.length; i++) {
-      if (snake[i].x === snake[0].x && snake[i].y === snake[0].y) return true;
-    }
-    const hitLeftWall = snake[0].x < 0;
-    const hitRightWall = snake[0].x >= canvas.width / gridSize;
-    const hitTopWall = snake[0].y < 0;
-    const hitBottomWall = snake[0].y >= canvas.height / gridSize;
-
-    return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall;
-  }
-
-  function gameLoop() {
-    changingDirection = false;
-    if (checkCollision()) {
-      clearInterval(gameInterval);
-      alert(`Game Over! Score: ${score}`);
-      return;
-    }
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawFood();
-
-    const head = { x: snake[0].x + dx, y: snake[0].y + dy };
-    snake.unshift(head);
-
-    const didEatFood = head.x === food.x && head.y === food.y;
-    if (didEatFood) {
-      score += 10;
-      generateFood();
-    } else {
-      snake.pop();
-    }
-
-    drawSnake();
-  }
-
-  function startGame() {
-    snake = [{ x: 10, y: 10 }];
-    dx = 1;
-    dy = 0;
-    score = 0;
-    generateFood();
-    if (gameInterval) clearInterval(gameInterval);
-    gameInterval = setInterval(gameLoop, 100);
-  }
-
-  document.addEventListener('keydown', changeDirection);
-  startGame();
-</script>
-
-<p align="center">
-  Use arrow keys to play! Refresh the page to restart.
-</p>
+[Source: Platane/snk GitHub Action](https://github.com/Platane/snk)
