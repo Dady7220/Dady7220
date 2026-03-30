@@ -1,114 +1,121 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=36&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=SYSTEM+INITIALIZED;PIP+HUSTLER+FX;QUANT+TRADING+PROTOCOL;EXECUTING+ALGORITHMS" alt="Futuristic Typing SVG" />
-</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=050d0a&height=200&section=header&text=DADY7220&fontSize=80&fontAlignY=40&fontColor=00FF88&animation=twinkling&desc=QUANT%20DEVELOPER%20|%20TRADER&descSize=20&descAlignY=65" alt="Futuristic Banner" />
-</p>
+<!-- HEADER: SYSTEM INITIALIZATION -->
+<img src="https://capsule-render.vercel.app/render?type=rect&color=050d0a&height=250&section=header&text=PIP%20HUSTLER%20FX&fontSize=70&fontAlignY=35&fontColor=00FF88&animation=twinkling&desc=QUANTITATIVE%20TRADING%20PROTOCOL%20v1.0&descSize=20&descAlignY=60" width="100%" />
 
-<p align="center">
-  <a href="https://dady7220.github.io/">
-    <img src="https://img.shields.io/badge/ACCESS%20LIVE%20INTERFACE-ENTER-00FF88?style=for-the-badge&labelColor=050d0a&color=00ff88" alt="Live Profile"/>
-  </a>
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Dady7220&label=NETWORK%20TRAFFIC&color=00FF88&style=flat-square" alt="Profile Views" />
-</p>
+<!-- DYNAMIC STATUS BAR -->
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=SYSTEM+STATUS:+OPERATIONAL;EXECUTING+MARKET+ANALYSIS;ALGORITHMIC+STRATEGY+ACTIVE;DECRYPTING+QUANT+MODELS" alt="System Status" />
 
----
+<br/>
 
-<p align="center">
-  <code>[ STATUS: ACTIVE ]</code> &nbsp;·&nbsp;
-  <code>[ CLASS: QUANT ]</code> &nbsp;·&nbsp;
-  <code>[ LANGUAGE: PYTHON ]</code> &nbsp;·&nbsp;
-  <code>[ SECTOR: FINANCE ]</code>
-</p>
+<!-- PRIMARY CTA -->
+<a href="https://dady7220.github.io/">
+  <img src="https://img.shields.io/badge/INTERFACE-ENTER%20LIVE%20TERMINAL-00FF88?style=for-the-badge&labelColor=050d0a&color=00ff88" alt="Live Interface" />
+</a>
 
-<p align="center">
-  <strong>CORE MISSION:</strong> Bridging the gap between raw market data and algorithmic execution.<br>
-  <strong>EXPERIENCE:</strong> 24 months in live market environments with a focus on price action.<br>
-  <strong>CURRENT OPERATION:</strong> Developing high-frequency analytics and 2D logic engines.
-</p>
+<br/><br/>
+
+<!-- TRAFFIC ANALYTICS -->
+<img src="https://komarev.com/ghpvc/?username=Dady7220&label=NETWORK%20TRAFFIC&color=00FF88&style=flat-square" alt="Network Traffic" />
+
+</div>
 
 ---
 
-### CURRENT OPERATIONS
+### [ CORE ARCHITECTURE ]
 
-- **TRADING:** Live market execution utilizing support, resistance, and advanced candlestick patterns.
-- **RESEARCH:** Deep dive into Quantitative Finance, Statistical Arbitrage, and Options Pricing.
-- **DEVELOPMENT:** Engineering financial analytics tools and interactive logic systems in Python.
-- **INQUIRIES:** Open for discussions on Algorithmic Trading, Linux systems, and Mathematical Modeling.
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <strong>OPERATIONAL FOCUS</strong><br/>
+        Professional trader with 24 months of live market execution. Specialized in high-probability price action and technical liquidity zones. Currently bridging the gap between discretionary trading and automated quantitative systems.
+      </td>
+      <td width="50%" valign="top">
+        <strong>CURRENT DIRECTIVE</strong><br/>
+        Engineering robust backtesting engines and financial analytics tools. Deep-diving into Statistical Arbitrage, Options Pricing Models, and High-Frequency Logic.
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### TECHNICAL SPECIFICATIONS
+### [ TECHNICAL SPECIFICATIONS ]
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TRADER-050d0a?style=for-the-badge&logoColor=00FF88" />
+  <img src="https://img.shields.io/badge/QUANT-050d0a?style=for-the-badge&logoColor=00FF88" />
+  <img src="https://img.shields.io/badge/DEVELOPER-050d0a?style=for-the-badge&logoColor=00FF88" />
+  <img src="https://img.shields.io/badge/MATHEMATICIAN-050d0a?style=for-the-badge&logoColor=00FF88" />
+</p>
 
 ```text
-[ EXPERIENCE ]      → 2 Years Live Trading
-[ MASTERY ]         → Price Action | Risk Management | Trend Analysis | Candlestick Patterns
-[ ACTIVE RESEARCH ] → Quant Finance | Statistical Arbitrage | Backtesting | Options Pricing
-[ TOOLKIT ]         → Python (Pandas, NumPy) | Excel Modeling | TradingView | Linux | Bash
+PROTOCOL: TRADING_SYSTEM_ALPHA
+--------------------------------------------------
+[ EXPERIENCE ]  → 2.0 YEARS LIVE MARKET EXECUTION
+[ MASTERY ]     → PRICE ACTION | LIQUIDITY | RISK MITIGATION
+[ RESEARCH ]    → QUANT FINANCE | STAT-ARB | OPTIONS VOLATILITY
+[ INFRA ]       → LINUX | PYTHON | BASH | EXCEL MODELING
 ```
 
 ---
 
-### SYSTEM GRAPHICS: NEURAL NETWORK
+### [ LOGIC ENGINE & TOOLKIT ]
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Dady7220&show_icons=true&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=050d0a&title_color=00FF88&text_color=ffffff" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dady7220&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=050d0a&title_color=00FF88&text_color=ffffff" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dady7220&theme=chartreuse-dark&hide_border=true&background=050d0a&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/lua/lua-icon.svg" alt="Lua" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" width="50" height="50"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="50" height="50"/>
 </p>
 
 ---
 
-### CORE ARCHITECTURE (JSON)
+### [ NEURAL NETWORK DATA ]
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Dady7220&show_icons=true&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=050d0a&title_color=00FF88&text_color=ffffff" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Dady7220&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=050d0a&title_color=00FF88&text_color=ffffff" width="48%" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dady7220&theme=chartreuse-dark&hide_border=true&background=050d0a&stroke=00FF88&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" width="97%" />
+</div>
+
+---
+
+### [ SYSTEM_MANIFEST.JSON ]
 
 ```json
 {
-  "identity": {
-    "handle": "Dady7220",
-    "designation": "Quant Trader / Developer",
-    "status": "Operational"
+  "node": "Dady7220",
+  "role": "Quant Developer",
+  "operational_metrics": {
+    "market_exposure": "2 Years",
+    "primary_stack": ["Python", "Pandas", "NumPy"],
+    "specialization": "Algorithmic Alpha Generation"
   },
-  "protocols": [
-    "Quantitative Analysis",
-    "Algorithmic Trading",
-    "Python Engineering",
-    "Data Science"
-  ],
-  "infrastructure": {
-    "os": "Linux",
-    "editor": "VS Code",
-    "languages": ["Python", "JavaScript", "Lua", "Bash"]
+  "subsystems": {
+    "game_dev": "Pygame / 2D Logic Engines",
+    "automation": "Bash / Linux Optimization",
+    "analytics": "Excel Financial Modeling"
   },
-  "mission_parameters": {
-    "trading_years": 2,
-    "focus_areas": [
-      "Market Microstructure",
-      "Risk Mitigation",
-      "Backtesting Engines"
-    ]
+  "connectivity": {
+    "email": "dadybiel96@gmail.com",
+    "repository": "github.com/Dady7220"
   }
 }
 ```
 
 ---
 
-### COMMUNICATION UPLINK
-
-- **ENCRYPTED EMAIL:** [dadybiel96@gmail.com](mailto:dadybiel96@gmail.com)
-- **GITHUB NODE:** [github.com/Dady7220](https://github.com/Dady7220)
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=18&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=The+market+is+the+most+honest+teacher+alive;It+charges+tuition+in+real+time" alt="Footer Typing SVG" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=16&pause=2000&color=00FF88&center=true&vCenter=true&width=800&lines=THE+MARKET+IS+THE+MOST+HONEST+TEACHER+ALIVE;IT+CHARGES+TUITION+IN+REAL+TIME;SYSTEM+SHUTDOWN+PREVENTED" alt="Footer" />
+  <br/>
+  <code>[ END OF TRANSMISSION ]</code>
+</div>
